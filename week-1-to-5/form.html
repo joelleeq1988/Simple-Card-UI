@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <style>
+    .input-group {
+      margin-bottom: 10px;
+      display: inline-block;
+      margin-right: 10px;
+    }
+  </style>
+  <body>
+    <main>
+      <form action="#">
+        <div>
+          <div
+            style="
+              margin-bottom: 10px;
+              display: inline-block;
+              margin-right: 10px;
+            "
+          >
+            <label for="firstname">First Name</label>
+            <input
+              type="text"
+              id="firstname"
+              placeholder="Enter your First Name"
+            />
+          </div>
+          <div style="margin-bottom: 10px; display: inline-block">
+            <label for="lastname">Last Name</label>
+            <input
+              type="text"
+              id="lastname"
+              placeholder="Enter your Last Name"
+            />
+          </div>
+        </div>
+        <div
+          style="margin-bottom: 10px; display: inline-block; margin-right: 10px"
+        >
+          <label for="email">Email Address:</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your Email Address"
+          />
+        </div>
+        <div>
+          <div
+            style="
+              margin-bottom: 10px;
+              display: inline-block;
+              margin-right: 10px;
+            "
+          >
+            <label for="number">Age:</label>
+            <input type="number" id="number" placeholder="Enter your Age" />
+          </div>
+          <div
+            style="
+              margin-bottom: 10px;
+              display: inline-block;
+              margin-right: 10px;
+            "
+          >
+            <label for="number">Date of Birth:</label>
+            <input type="date" id="Date" />
+          </div>
+        </div>
+        <div class="input-group">
+          <label for="password"> password:</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter your password"
+          />
+        </div>
+        <div class="input-group">
+          <label for="file"> :</label>
+          <input type="file" id="file" placeholder="Enter your file" />
+        </div>
+        <div class="input-group">
+          <label for="number">Address :</label>
+          <textarea id="number" cols="30" rows="10"> </textarea>
+        </div>
+        <div class="input-group">
+          <input type="radio" id="Male" name="gender" />
+          <label for="gender">"Male" </label>
+        </div>
+        <div class="input-group">
+          <input type="radio" id="gender" name="gender" />
+          <label for="gender">"Female" </label>
+        </div>
+        <div class="input-group">
+          <input type="radio" id="gender" name="gender" />
+          <label for="gender">"Gay" </label>
+        </div>
+        <div class="input-group">
+          <input type="radio" id="gender" name="gender" />
+          <label for="gender">"Lesbian" </label>
+        </div>
+        <!-- 3rd Row -->
+        <div></div>
+        <!-- 4th row -->
+        <div></div>
+        <!-- 5th row -->
+        <div>
+          <input type="checkbox" id="html" />
+          <label for="html">HTML</label>
+        </div>
+        <div>
+          <input type="checkbox" id="css" />
+          <label for="css">CSS</label>
+        </div>
+        <div>
+          <input type="checkbox" id="javascript" />
+          <label for="javascript">JAVASCRIPT</label>
+        </div>
+        <div>
+          <input type="checkbox" id="bootstrap" />
+          <label for="bootstrap">BOOTSTRAP</label>
+        </div>
+        <div>
+          <input type="checkbox" id="git" />
+          <label for="git">GIT</label>
+        </div>
+        <div>
+          <label for="">Choose a country:</label>
+          <select name="" id="country">
+            <option>Phillipines</option>
+            <option>Singapore</option>
+            <option>Japan</option>
+            <option>North Korea</option>
+          </select>
+        </div>
+        <input type="submit" value="Submit" />
+      </form>
+    </main>
+  </body>
+</html>
